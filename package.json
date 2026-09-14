@@ -1,0 +1,19 @@
+{
+  "name": "otp-security-system",
+  "version": "1.0.0",
+  "description": "OTP security system technical assessment",
+  "main": "src/server.js",
+  "scripts": {
+    "start": "node src/server.js",
+    "dev": "nodemon src/server.js",
+    "test": "jest"
+  },
+  "dependencies": {
+    "dotenv": "^17.0.0",
+    "express": "^5.1.0"
+  },
+  "devDependencies": {
+    "jest": "^30.0.0",
+    "nodemon": "^3.1.0"
+  }
+}
