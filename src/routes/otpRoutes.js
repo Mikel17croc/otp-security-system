@@ -45,17 +45,17 @@ router.post("/send", (req, res) => {
 router.post("/verify", (req, res) => {
     const { email, otp } = req.body;
 
-    if (!email || !otp) {
+    if (!email) {
         return res.status(400).json({
             success: false,
-            message: "Email and OTP are required."
+            message: "Email is required."
         });
     }
 
-    if (!/^\d{6}$/.test(otp)) {
+    if (!/^[^\s@]+@[^\s@]+\.[^\s@]+$/.test(email)) {
         return res.status(400).json({
             success: false,
-            message: "OTP must be exactly 6 digits."
+            message: "Please provide a valid email address."
         });
     }
 
