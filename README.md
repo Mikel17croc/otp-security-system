@@ -564,3 +564,4 @@ South Africa
 
 The project demonstrates a functional OTP security system with a Node.js/Express API, frontend interface, OTP security rules, and automated tests.
 live URL: https://otp-security-system.vercel.app/
+loom Video: https://www.loom.com/share/e8e3b6f9f9d24ef896e8da3c1b428d11
