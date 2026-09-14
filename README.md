@@ -116,7 +116,7 @@ OTP_HISTORY_HOURS=24
 ### 1. Clone the repository
 
 ```bash
-git clone https://github.com/YOUR-USERNAME/otp-security-system.git
+git clone https://github.com/Mikel17croc/otp-security-system.git
 ```
 
 ### 2. Enter the project directory
